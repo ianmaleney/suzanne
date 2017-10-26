@@ -1,0 +1,108 @@
+body
+	font-family: $pre
+	font-size: 1rem
+	line-height: 1.8rem
+	text-transform: none
+	font-weight: normal
+	font-style: normal
+	text-decoration: none
+	background-color: $lightGray
+	color: $black
+
+a 
+	color: $links
+	text-decoration: none
+	&:hover
+		color: $black
+
+p 
+	margin-bottom: 1.8rem
+
+main 
+	width: 95%
+	margin: 0 auto
+	@media (min-width: 700px)
+		width: 75%
+
+main.blog 
+	width: 100%
+
+.site-wrapper
+	max-width: 1060px
+	margin: 0 auto
+	width: 100%
+	@media (min-width: 700px)
+		padding: 30px 20px 0
+	@media (min-width: 1200px)
+		padding: 100px 0
+
+.c-home-image__wrapper
+	width: 100%
+
+.c-home-image
+	max-width: 100%
+	object-fit: contain
+
+.c-home-image__caption
+	font-weight: bold
+	font-size: 12px
+
+
+
+.c-index-page
+	display: flex
+	justify-content: space-between
+
+.c-post-list
+	flex: 1 0 100%
+	max-width: 100%
+
+.c-index-page--two-column
+	flex-direction: column-reverse
+	.c-post-list, .c-page-description
+		width: 95%
+		margin: 0 auto
+	.c-page-description
+		border-bottom: 1px solid $divider
+	@media (min-width: 700px)
+		flex-direction: row
+		.c-post-list
+			padding-right: 5%
+			max-width: 60%
+			flex: 1 0 60%
+		.c-page-description
+			flex: 1 0 33%
+
+.post-title
+	font-family: $serif
+	font-size: 20px
+	line-height: 1.2em
+	text-transform: uppercase
+	letter-spacing: 3px
+	font-weight: normal
+	font-style: normal
+	a
+		color: $black
+.post-date
+	font-style: italic
+	letter-spacing: 2px
+	font-size: 0.85rem
+
+.post-content
+	img 
+		max-width: 100%
+		padding: 1.8rem 0
+
+.c-page-links
+	padding: 20px 0
+	border-top: 1px solid $divider
+
+.c-page-links__post
+	border-bottom: 1px solid $divider
+
+.c-page-links__post-title
+	text-transform: uppercase
+
+iframe
+	width: 100%
+	height: auto

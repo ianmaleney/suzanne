@@ -1,0 +1,13 @@
+---
+- title: Contact/Info
+  link: "/contact/"
+- title: CV
+  link: "/cv/"
+- title: Art
+  link: "/art/"
+- title: Writing
+  link: '/writing/'
+- title: Music
+  link: '/music/'
+- title: News
+  link: '/news/'

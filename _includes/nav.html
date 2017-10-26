@@ -1,0 +1,10 @@
+<nav class="c-primary-nav"> 
+	<div class="c-header-title"><a href="/">{{site.title}}</a></div>
+	<ul class="c-header-menu">
+		{% for link in site.data.nav %}
+			<li class="c-header-menu__item {% if link.link == page.url %} nav-current {% endif %}" >
+				<a href="{{ link.link }}">{{ link.title }}</a>
+			</li>
+		{% endfor %}
+	</ul>
+</nav>

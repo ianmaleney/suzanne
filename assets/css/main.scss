@@ -3,5 +3,8 @@
 @charset "utf-8";
 
 @import 'vendor/normalize';
-
+@import 'variables';
 @import 'base/root';
+@import 'base/base';
+@import 'components/header';
+@import 'components/footer';
