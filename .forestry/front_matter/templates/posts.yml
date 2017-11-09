@@ -3,6 +3,12 @@ pages:
 - _posts/2017-11-09-art-test.md
 hide_body: false
 fields:
+- type: text
+  label: Title
+  name: title
+  description: What is the post called?
+  config:
+    required: true
 - type: select
   name: category
   config:
