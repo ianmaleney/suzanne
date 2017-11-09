@@ -1,0 +1,16 @@
+---
+hide_body: false
+fields:
+- type: select
+  name: category
+  config:
+    source:
+      type: simple
+    options:
+    - art
+    - music
+    - writing
+    - news
+  label: Category
+  description: Under what category should this post be filed – art, writing, music,
+    or news?
