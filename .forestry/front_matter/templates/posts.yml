@@ -1,7 +1,7 @@
 ---
-pages:
-- _posts/2017-11-09-art-test.md
+label: Posts
 hide_body: false
+is_partial: false
 fields:
 - type: text
   label: Title
@@ -22,3 +22,5 @@ fields:
   label: Category
   description: Under what category should this post be filed – art, writing, music,
     or news?
+pages:
+- _posts/2017-11-09-art-test.md
